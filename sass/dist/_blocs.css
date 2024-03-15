@@ -1,0 +1,47 @@
+.inner-card {
+  width: 393px;
+  height: 382px;
+  background-color: #f6f6f6;
+  padding: 20px 17px 15px 17px;
+}
+.inner-card__tytle {
+  width: 358px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.inner-card__text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.inner-card__img {
+  width: 359px;
+  height: 165px;
+  border-radius: 10px;
+}
+.inner-card__span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.inner-card__span__img {
+  top: 369px;
+  left: 17px;
+  border-radius: 5px;
+}
+.inner-card__span__time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}

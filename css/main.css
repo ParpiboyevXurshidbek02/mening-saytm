@@ -1,0 +1,136 @@
+.inner-card {
+  width: 386px;
+  height: 382px;
+  background-color: #f6f6f6;
+  padding: 20px 17px 15px 13px;
+  top: 394px;
+  left: 120px;
+  gap: 15px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+.inner-card__tytle {
+  width: 358px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.inner-card__text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.inner-card__img {
+  width: 359px;
+  height: 165px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.inner-card__span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.inner-card__span__img {
+  top: 369px;
+  left: 17px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.inner-card__span__time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.inner-card:hover {
+  box-shadow: 0 0 35px 5px #a3a0a0;
+  transition: 0.7s ease;
+  transform: scale(1.006);
+}
+
+.inner-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.inner-card:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.inner-card:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.inner-card:nth-child(6) {
+  margin-bottom: 500px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Rubik";
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* rubik-regular - arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-v28-arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-500 - arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/rubik-v28-arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-600 - arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/rubik-v28-arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-700 - arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-v28-arabic_cyrillic_cyrillic-ext_hebrew_latin_latin-ext-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}/*# sourceMappingURL=main.css.map */
