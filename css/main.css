@@ -74,10 +74,6 @@
   margin-bottom: 0;
 }
 
-.inner-card:nth-child(6) {
-  margin-bottom: 500px;
-}
-
 *,
 *::before,
 *::after {
@@ -96,7 +92,6 @@ body {
 }
 
 .main {
-  margin-top: 500px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
